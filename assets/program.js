@@ -3,19 +3,9 @@
     return;
   }
 
-  const summary = document.getElementById("program-summary");
   const daysContainer = document.getElementById("program-days");
   const printButton = document.getElementById("print-program");
-  const { overview, days } = window.programData;
-
-  if (summary) {
-    summary.innerHTML = `
-      <p class="card-kicker">Program Overview</p>
-      <h2>${overview.title}</h2>
-      <p class="program-meta">${overview.dateRange} • ${overview.location}</p>
-      <p class="program-note">${overview.note}</p>
-    `;
-  }
+  const days = Array.isArray(window.programData.days) ? window.programData.days : [];
 
   if (daysContainer) {
     daysContainer.innerHTML = days
@@ -27,14 +17,20 @@
                   .map((tag) => `<span>${tag}</span>`)
                   .join("")}</div>`
               : "";
+            const meta = session.meta
+              ? `<p class="program-meta">${session.meta}</p>`
+              : "";
+            const description = session.description
+              ? `<p class="program-description">${session.description}</p>`
+              : "";
 
             return `
               <article class="program-session">
                 <div class="program-time">${session.time}</div>
                 <div>
                   <h3 class="program-title">${session.title}</h3>
-                  <p class="program-meta">${session.meta}</p>
-                  <p class="program-description">${session.description}</p>
+                  ${meta}
+                  ${description}
                   ${tags}
                 </div>
               </article>
@@ -45,7 +41,7 @@
         return `
           <section class="program-day">
             <div class="program-day-header">
-              <h2>${day.title}</h2>
+              <h3>${day.title}</h3>
               <p class="program-day-date">${day.date}</p>
             </div>
             <div class="program-session-list">${sessions}</div>

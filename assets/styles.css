@@ -1,13 +1,13 @@
 :root {
-  --bg: #f5efe3;
-  --paper: rgba(255, 251, 244, 0.88);
-  --paper-strong: #fff9f2;
-  --ink: #1c2430;
-  --muted: #5c6675;
-  --accent: #db5b2c;
-  --accent-dark: #aa3f19;
-  --line: rgba(28, 36, 48, 0.12);
-  --shadow: 0 18px 40px rgba(41, 30, 22, 0.12);
+  --bg: #ececec;
+  --paper: rgba(255, 255, 255, 0.84);
+  --paper-strong: #ffffff;
+  --ink: #111111;
+  --muted: #5e5e5e;
+  --accent: #1f1f1f;
+  --accent-dark: #000000;
+  --line: rgba(17, 17, 17, 0.12);
+  --shadow: 0 18px 40px rgba(17, 17, 17, 0.12);
   --radius: 28px;
   --max-width: 1180px;
 }
@@ -27,9 +27,9 @@ body {
   min-height: 100vh;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(219, 91, 44, 0.22), transparent 30%),
-    radial-gradient(circle at right 20%, rgba(97, 128, 112, 0.18), transparent 28%),
-    linear-gradient(180deg, #f9f3e8 0%, #f3ecdf 100%);
+    radial-gradient(circle at top left, rgba(0, 0, 0, 0.08), transparent 28%),
+    radial-gradient(circle at right 20%, rgba(90, 90, 90, 0.08), transparent 30%),
+    linear-gradient(180deg, #f7f7f7 0%, #e8e8e8 100%);
   font-family: "Manrope", sans-serif;
   line-height: 1.6;
 }
@@ -62,8 +62,8 @@ button {
   gap: 1rem;
   padding: 1rem 1.25rem;
   margin-bottom: 2rem;
-  background: rgba(255, 249, 242, 0.82);
-  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 999px;
   backdrop-filter: blur(18px);
   box-shadow: var(--shadow);
@@ -76,16 +76,28 @@ button {
   text-decoration: none;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 3rem;
+.brand-logos {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.brand-logo-frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 5.4rem;
   height: 3rem;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #ef8c56);
-  color: #fff;
-  font-weight: 800;
-  letter-spacing: 0.08em;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.brand-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .brand-text {
@@ -121,7 +133,7 @@ button {
 .site-nav a:focus-visible,
 .site-nav a.is-active {
   color: var(--ink);
-  background: rgba(219, 91, 44, 0.12);
+  background: rgba(17, 17, 17, 0.08);
   transform: translateY(-1px);
 }
 
@@ -132,7 +144,7 @@ button {
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: rgba(219, 91, 44, 0.12);
+  background: rgba(17, 17, 17, 0.08);
   color: var(--ink);
 }
 
@@ -220,6 +232,15 @@ button {
   font-size: 1.08rem;
 }
 
+body[data-page]:not([data-page="home"]) .page-hero h1 {
+  max-width: 18ch;
+}
+
+body[data-page]:not([data-page="home"]) .page-hero p {
+  width: 100%;
+  max-width: none;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -249,7 +270,7 @@ button {
 .button-primary {
   background: var(--accent);
   color: #fff;
-  box-shadow: 0 12px 24px rgba(170, 63, 25, 0.22);
+  box-shadow: 0 12px 24px rgba(17, 17, 17, 0.18);
 }
 
 .button-primary:hover,
@@ -280,7 +301,7 @@ button {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(219, 91, 44, 0.18), transparent 70%);
+  background: radial-gradient(circle, rgba(17, 17, 17, 0.12), transparent 70%);
 }
 
 .event-meta {
@@ -315,6 +336,20 @@ button {
 .program-summary,
 .program-day {
   padding: 1.6rem;
+}
+
+.map-embed {
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid var(--line);
+  min-height: 18rem;
+}
+
+.map-embed iframe {
+  display: block;
+  width: 100%;
+  min-height: 18rem;
+  border: 0;
 }
 
 .text-link {
@@ -356,7 +391,7 @@ button {
 
 .accent-panel {
   background:
-    linear-gradient(145deg, rgba(219, 91, 44, 0.15), rgba(255, 255, 255, 0.55)),
+    linear-gradient(145deg, rgba(17, 17, 17, 0.08), rgba(255, 255, 255, 0.72)),
     var(--paper-strong);
 }
 
@@ -378,6 +413,12 @@ button {
 .program-days {
   display: grid;
   gap: 1rem;
+}
+
+.program-export {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
 }
 
 .program-day-header {
@@ -476,8 +517,8 @@ body.nav-open .site-nav {
     flex-direction: column;
     align-items: stretch;
     padding: 0.8rem;
-    background: rgba(255, 249, 242, 0.96);
-    border: 1px solid rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(255, 255, 255, 0.75);
     border-radius: 1.5rem;
     box-shadow: var(--shadow);
   }
