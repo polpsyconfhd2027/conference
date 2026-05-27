@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Program | 24 Hours of Political Psychology</title>
+    <meta
+      name="description"
+      content="Program overview for 24 Hours of Political Psychology on February 11-12, 2027."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body data-page="program">
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">PPC</span>
+          <span class="brand-text">
+            <strong>24 Hours of</strong>
+            <span>Political Psychology</span>
+          </span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open menu">
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="program.html">Program</a>
+          <a href="registration.html">Registration</a>
+          <a href="travel.html">Travel & Venue</a>
+        </nav>
+      </header>
+
+      <main class="page-main">
+        <section class="page-hero">
+          <p class="eyebrow">Program</p>
+          <h1>Conference schedule and printable PDF export.</h1>
+          <p>
+            The overall schedule below is generated from a single editable data file. Use the
+            button to open the browser print dialog and save the current program as a PDF.
+          </p>
+          <div class="hero-actions">
+            <button class="button button-primary" type="button" id="print-program">
+              Export Program As PDF
+            </button>
+            <span class="inline-note">Tip: update `assets/program-data.js` to change sessions.</span>
+          </div>
+        </section>
+
+        <section class="program-summary" id="program-summary"></section>
+        <section class="program-days" id="program-days"></section>
+      </main>
+
+      <footer class="site-footer">
+        <p>24 Hours of Political Psychology</p>
+        <p>Printable schedule included.</p>
+      </footer>
+    </div>
+
+    <script src="assets/program-data.js"></script>
+    <script src="assets/site.js"></script>
+    <script src="assets/program.js"></script>
+  </body>
+</html>
