@@ -11,25 +11,20 @@ Static conference website - ready for GitHub Pages hosting.
 - `travel.html` for venue and travel information
 
 ## Important files & To dos
-
+- Shared document to discuss/add stuff `SharedDocConnyNils.md`
+- Update general conf infos and text
 - Update registration link in `assets/site-config.js`
 - Update the program schedule in `assets/program-data.js`
-- Replace placeholder page text directly in the HTML files
+- Change/Style website
 
-## PDF export
+## GitHub Pages hosting (after finalizing website)
 
-Open `program.html` and click `Export Program As PDF`.
-Your browser print dialog will open, and you can save the page as a PDF.
+1. In the repository settings, open `Pages`.
+2. Set the source to deploy from the main branch and root folder.
+3. Your site will be published on a GitHub Pages URL.
+4. Later, connect your custom domain in the same `Pages` settings area.
 
-## GitHub Pages hosting for later
-
-1. Create a GitHub repository and upload these files.
-2. In the repository settings, open `Pages`.
-3. Set the source to deploy from the main branch and root folder.
-4. Your site will be published on a GitHub Pages URL.
-5. Later, connect your custom domain in the same `Pages` settings area.
-
-## Local preview
+## Until ready to publish: Local preview
 
 Preview locally with:
 
@@ -39,3 +34,10 @@ python3 -m http.server 8000
 while being in the folder 
 
 Open with `http://localhost:8000`.
+
+## PDF export of program
+
+Open `program.html` and click `Export Program As PDF`.
+Your browser print dialog will open, and you can save the page as a PDF.
+
+
