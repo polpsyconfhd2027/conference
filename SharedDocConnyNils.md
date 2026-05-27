@@ -85,3 +85,8 @@
   - Catering-/Networkingfläche
   - Technik-Support für parallele Tracks
 
+
+
+## Änderungen
+- Logos (Uni Heidelberg + CFH + PolPsyNet)
+
