@@ -3,6 +3,12 @@
 
 ### Conf theme: Digitalization, Discourse and Democracy - PolPsy in the modern age 
 
+# 0. To Dos
+- [ ] E-Mail Adresse für Kontakt erstellen
+- [ ] Survey Registration aufsetzen 
+- [ ] Design, Inhalt (Placeholder) finalisieren
+
+
 # 1. Konferenzplan
 
 ## Rahmenbedingungen
@@ -87,6 +93,4 @@
 
 
 
-## Änderungen
-- Logos (Uni Heidelberg + CFH + PolPsyNet)
 
