@@ -8,6 +8,17 @@
 - [ ] Survey Registration aufsetzen 
 - [ ] Design, Inhalt (Placeholder) finalisieren
 
+- [ ] Anmerkung CS: Ich liebe so viel an dieser Homepage! :) Mega - viel besser als andere.
+- [ ] Anmerkung CS: Home: Können wir auch das Logo des Netzwerks noch zeigen, damit die Personen das erkennen?
+- [ ] Anmerkung CS: Statte oder Neben "Registration" ist erst einmal der Call for Submissions wichtig - oder?
+- [ ] Anmerkung CS: Ich würde das Conference Theme überall Kapitalisieren (Digitalization, Discourse, and Democracy - Political Psychology in the Modern Age)
+- [ ] Anmerkung CS: Manchmal steht das Conference Theme nur als "Digitalization, discourse, and democracy in the modern age" --> Insgesamt sollten wir uns auf eine exakte Schreibweise einigen und diese dann konsequent nutzen
+- [ ] Anmerkung CS: Local Organizing Team: CFH: Charlotte-Fresenius-Hochschule, University of Psychology, Heidelberg (das "University of Psychology" muss überall dazu)
+- [ ] Anmerkung CS: Local Organizing Team: Ich würde Bilder von uns einfügen. Wir sind doch hübsch genug, um präsentiert zu werden! ;) Und - Spaß beiseite - ich finde, dass macht es immer noch etwas "greifbarer"
+- [ ] Anmerkung CS: General Information:  "this year's conference" --> Stimmt nicht ganz, weil sie ja erst nächstes Jahr stattfindet
+- [ ] Anmerkung CS: Später müssen wir dann noch irgendwo Informationen zur Vorbereitung der Präsentationen etc. nennen; Zudem müssen dann noch Infos zu der Keynote eingefügt werden (beides ggf. unter dem Punkt "Programm")
+
+
 
 # 1. Konferenzplan
 
