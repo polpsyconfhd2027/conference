@@ -370,6 +370,28 @@ body[data-page]:not([data-page="home"]) .page-hero p {
   margin-top: 1.5rem;
 }
 
+.news-updates {
+  margin-top: 1.5rem;
+}
+
+.news-list {
+  display: grid;
+  gap: 0.85rem;
+  margin: 1.25rem 0 0;
+  padding-left: 1.25rem;
+}
+
+.news-list li::marker {
+  color: var(--accent-dark);
+}
+
+.news-list time {
+  display: block;
+  margin-bottom: 0.2rem;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
 .spotlight {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;
@@ -491,15 +513,7 @@ body.nav-open .site-nav {
   display: flex;
 }
 
-@media (max-width: 900px) {
-  .hero,
-  .spotlight,
-  .two-column,
-  .feature-grid,
-  .content-grid {
-    grid-template-columns: 1fr;
-  }
-
+@media (max-width: 1120px) {
   .site-header {
     border-radius: 2rem;
   }
@@ -525,6 +539,16 @@ body.nav-open .site-nav {
 
   .site-nav a {
     padding: 0.9rem 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hero,
+  .spotlight,
+  .two-column,
+  .feature-grid,
+  .content-grid {
+    grid-template-columns: 1fr;
   }
 
   .program-session {

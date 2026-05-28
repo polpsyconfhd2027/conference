@@ -20,16 +20,33 @@
     });
   }
 
-  const registrationLink = document.querySelector("[data-registration-link]");
-  if (
-    registrationLink &&
-    window.siteConfig &&
-    window.siteConfig.registrationUrl &&
-    window.siteConfig.registrationUrl !== "#"
-  ) {
-    registrationLink.href = window.siteConfig.registrationUrl;
-    registrationLink.textContent = window.siteConfig.registrationLabel;
-    registrationLink.target = "_blank";
-    registrationLink.rel = "noreferrer";
-  }
+  const config = window.siteConfig || {};
+
+  [
+    {
+      selector: "[data-registration-link]",
+      url: config.registrationUrl,
+      label: config.registrationLabel
+    },
+    {
+      selector: "[data-submission-link]",
+      url: config.submissionSurveyUrl,
+      label: config.submissionSurveyLabel
+    }
+  ].forEach((item) => {
+    const link = document.querySelector(item.selector);
+    if (!link) {
+      return;
+    }
+
+    if (item.label) {
+      link.textContent = item.label;
+    }
+
+    if (item.url && item.url !== "#") {
+      link.href = item.url;
+      link.target = "_blank";
+      link.rel = "noreferrer";
+    }
+  });
 })();

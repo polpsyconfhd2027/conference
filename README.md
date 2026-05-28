@@ -6,6 +6,7 @@ Static conference website - ready for GitHub Pages hosting.
 
 - `index.html` for the landing page
 - `about.html` for conference information
+- `submission.html` for submission details and the external survey link
 - `registration.html` for registration details and the external registration link
 - `program.html` for the editable conference program and PDF export
 - `travel.html` for venue and travel information
@@ -14,6 +15,7 @@ Static conference website - ready for GitHub Pages hosting.
 - Shared document to discuss/add stuff `SharedDocConnyNils.md`
 - Update general conf infos and text
 - Update registration link in `assets/site-config.js`
+- Update submission survey link in `assets/site-config.js`
 - Update the program schedule in `assets/program-data.js`
 - Change/Style website
 
@@ -39,5 +41,4 @@ Open with `http://localhost:8000`.
 
 Open `program.html` and click `Export Program As PDF`.
 Your browser print dialog will open, and you can save the page as a PDF.
-
 
