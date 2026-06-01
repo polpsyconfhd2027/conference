@@ -1,6 +1,6 @@
 window.siteConfig = {
   registrationUrl: "#",
-  registrationLabel: "Insert registration link later",
+  registrationLabel: "Register for the conference",
   submissionSurveyUrl: "#",
   submissionSurveyLabel: "Submission survey link coming soon"
 };
