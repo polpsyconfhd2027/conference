@@ -6,8 +6,8 @@
 # 0. To Dos
 - [X] E-Mail Adresse für Kontakt erstellen
 - [ ] Survey Registration aufsetzen 
-- [ ] News Seite updaten 
-- [ ] Formats einfügen Webseite (nach Conny)
+- [X] News Seite updaten 
+- [X] Formats einfügen Webseite (nach Conny)
 - [ ] Hotels raussuchen: Bahnstadt, rund um CFH 
 - [ ] Anmerkung CS: Später müssen wir dann noch irgendwo Informationen zur Vorbereitung der Präsentationen etc. nennen; Zudem müssen dann noch Infos zu der Keynote eingefügt werden (beides ggf. unter dem Punkt "Programm")
 - [ ] Sascha Altay anschreiben KeyNote
