@@ -1,6 +1,6 @@
 window.siteConfig = {
   registrationUrl: "#",
   registrationLabel: "Register for the conference",
-  submissionSurveyUrl: "#",
-  submissionSurveyLabel: "Submission survey link coming soon"
+  submissionSurveyUrl: "https://hochschulen-fresenius-unipark.de/uc/Sindermann/424c/",
+  submissionSurveyLabel: "Click here to open the submission survey",
 };
