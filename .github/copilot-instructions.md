@@ -40,8 +40,6 @@ python3 -m http.server 8000
 - The "Export Program As PDF" button (`#print-program`) just calls
   `window.print()`; PDF export relies on the browser's print dialog, not a
   server-side renderer.
-- `SharedDocConnyNils.md`/`.html` is a working/planning doc between
-  collaborators, not part of the published site.
 
 ## Conventions
 

@@ -11,8 +11,7 @@ Static conference website - ready for GitHub Pages hosting.
 - `program.html` for the editable conference program and PDF export
 - `travel.html` for venue and travel information
 
-## Important files & To dos
-- Shared document to discuss/add stuff `SharedDocConnyNils.md`
+## Important files and updates
 - Update general conf infos and text
 - Update registration link in `assets/site-config.js`
 - Update submission survey link in `assets/site-config.js`
@@ -41,4 +40,3 @@ Open with `http://localhost:8000`.
 
 Open `program.html` and click `Export Program As PDF`.
 Your browser print dialog will open, and you can save the page as a PDF.
-
