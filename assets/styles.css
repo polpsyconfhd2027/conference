@@ -440,6 +440,30 @@ body[data-page]:not([data-page="home"]) .page-hero p {
   color: var(--muted);
 }
 
+.faq-list {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 1.25rem;
+}
+
+.faq-item {
+  padding: 1.1rem 1.25rem;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.68);
+}
+
+.faq-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.faq-item p {
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+}
+
 .timeline {
   position: relative;
   display: grid;
