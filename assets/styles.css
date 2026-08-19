@@ -657,6 +657,20 @@ body[data-page]:not([data-page="home"]) .page-hero p {
   color: var(--muted);
 }
 
+.keynote-speaker {
+  margin: 1rem 0 0;
+  font-size: 1.35rem;
+}
+
+.keynote-speaker a {
+  text-decoration: none;
+}
+
+.keynote-speaker a:hover,
+.keynote-speaker a:focus-visible {
+  text-decoration: underline;
+}
+
 .keynote-photo {
   width: 100%;
   aspect-ratio: 1;
