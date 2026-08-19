@@ -645,6 +645,25 @@ body[data-page]:not([data-page="home"]) .page-hero p {
   gap: 0.75rem;
 }
 
+.keynote-content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(13rem, 20rem);
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 1.25rem;
+}
+
+.keynote-content p {
+  color: var(--muted);
+}
+
+.keynote-photo {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 1.25rem;
+  object-fit: cover;
+}
+
 .program-days {
   display: grid;
   gap: 1rem;
@@ -799,6 +818,14 @@ body.nav-open .site-nav {
   .feature-grid,
   .content-grid {
     grid-template-columns: 1fr;
+  }
+
+  .keynote-content {
+    grid-template-columns: 1fr;
+  }
+
+  .keynote-photo {
+    max-width: 20rem;
   }
 
   .program-session {
