@@ -43,7 +43,7 @@ window.programData = {
         },
         {
           time: "17:30-18:30",
-          title: "Keynote (TBA)",
+          title: "Keynote: Sasha Altay",
           tags: ["Keynote"]
         },
         {
