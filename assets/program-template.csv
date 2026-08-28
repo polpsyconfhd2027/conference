@@ -1,0 +1,6 @@
+type,day,date,time,title,room_or_format,authors,abstract,tags
+block,Day 1,Thursday February 11 2027,13:00-14:15,Session Block 1,Room A,,,,Parallel Sessions
+talk,Day 1,Thursday February 11 2027,13:00-13:15,Example talk title,Room A,Doe Jane; Example Max,Short abstract text (max. ~150 words) summarizing background method results and conclusions.,Political Behavior
+talk,Day 1,Thursday February 11 2027,13:15-13:30,Second example talk,Room A,Researcher Jane,Another abstract example. Replace with the real submission content once screening is done.,Misinformation
+block,Day 1,Thursday February 11 2027,17:30-18:30,Keynote: Sacha Altay,Main Hall,Sacha Altay,Keynote abstract.,Keynote
+block,Day 2,Friday February 12 2027,09:00-10:15,Session Block 4,Room B,,,,Parallel Sessions
