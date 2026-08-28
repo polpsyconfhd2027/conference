@@ -82,6 +82,27 @@
           </div>
         </section>
         <section class="program-days" id="program-days"></section>
+        <section class="content-card full-program" aria-labelledby="full-program-title">
+          <p class="eyebrow">Full Program</p>
+          <h2 id="full-program-title">Full Program &amp; Abstracts</h2>
+          <p id="full-program-status" class="program-note">
+            The full program with individual presentations, time slots, speakers
+            and abstracts will be published here after the registration and
+            screening procedure has been completed.
+          </p>
+          <div class="program-export full-program-download">
+            <a
+              class="button button-primary"
+              id="download-full-program"
+              data-full-program-link
+              href="#"
+              download
+            >
+              Download Full Program (PDF)
+            </a>
+          </div>
+          <div id="full-program-days" class="program-days" hidden></div>
+        </section>
         <section class="program-export">
           <button class="button button-primary" type="button" id="print-program">
             Export Program As PDF
@@ -96,6 +117,7 @@
     </div>
 
     <script src="assets/program-data.js"></script>
+    <script src="assets/full-program.js"></script>
     <script src="assets/site.js"></script>
     <script src="assets/program.js"></script>
   </body>
