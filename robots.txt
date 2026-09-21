@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://polpsyconfhd2027.github.io/conference/sitemap.xml
